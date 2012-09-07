@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module specificationVersion="1">
+  <ModulePrefs title="accenturetestapp"
+               description="Accenture Test App"
+               author="Mary Catherine Thomas"
+               author_affiliation="Accenture">
+
+    <!-- Commonly used features -->
+    <Require feature="dynamic-height" />
+    <Require feature="jive-core-v2" />
+    <Require feature="jquery-1.6" />
+    <Require feature="osapi"/>
+    <Require feature="settitle"/>
+    <Require feature="views" />
+
+  </ModulePrefs>
+
+  <Content type="html" view="home,canvas" href="hello.html" preferred_height="400" />
+
+
+</Module>
